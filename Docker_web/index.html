@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover our collection of exclusive products at affordable prices. Shop now for the latest tech gadgets, home essentials, and more.">
+<meta name="keywords" content="e-commerce, online store, affordable products, tech gadgets, home essentials">
+
+  <title>Marketify</title>
+  <style>
+    .link-115 {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  position: relative;
+}
+
+.link-115::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #F1C40F, #E74C3C); /* Tweak the color if needed */
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.link-115:hover::before {
+  width: 100%;
+  border-radius: 50%;
+}
+ 
+
+    /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body styling */
+  body {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Header styling */
+  header {
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  header p {
+    font-size: 1.1em;
+  }
+      /* Section styling */
+      section {
+      padding: 40px 20px;
+    }
+    
+    /* About, Services, Contact styling */
+    .about, .services, .contact {
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #fff;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+  
+  /* Product Section */
+  .products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #contactForm input, #contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+  .product img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .product p {
+    font-size: 1em;
+    color: #007bff;
+  }
+  
+  .product button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styling */
+  footer {
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 20px;
+  }
+ 
+
+
+/* CSS */
+#sub {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(61, 227, 233, 0.2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgb(16, 17, 17);
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#sub:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+<nav  style="background-color: #343a40; padding: 10px; text-align: center;">
+  <a class="link-115" href="#about" style="color: #fff; margin: 0 10px; text-decoration: none;">About</a>
+  <a class="link-115" href="#services" style="color: #fff; margin: 0 10px; text-decoration: none;">Services</a>
+  <a class="link-115" href="#products" style="color: #fff; margin: 0 10px; text-decoration: none;">Products</a>
+  <a class="link-115" href="#contact" style="color: #fff; margin: 0 10px; text-decoration: none;">Contact</a>
+</nav>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Marketify</h1>
+    <p>Welcome to our online shop! Browse our exclusive products below.</p>
+  </header>
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Welcome to our store! We specialize in offering quality products at affordable prices. Our mission is to provide the best online shopping experience for all our customers.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <p>We offer a range of services including customer support, fast delivery, and a satisfaction guarantee on all products. Whether you're looking for the latest tech or everyday essentials, we're here to help!</p>
+  </section>
+  <!-- Product Section -->
+  <section class="products">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/51T+opeLq1L._AC_SL1500_.jpg" alt="Product 1">
+      <h2>Table Cloth Decorative for Picni Camping</h2>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71tZi1t76pL._AC_SL1500_.jpg" alt="Product 2">
+      <h2>Gaming Headset for PS4</h2>
+      <p>$29.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61ZkCeQm+iL._AC_SL1500_.jpg" alt="Product 3">
+      <h2>
+        Logitech G713 Wired Mechanical Gaming Keyboard</h2>
+      <p>$39.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us via email at support@example.com or call us at (216) 51982537 . We're here to help!</p>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button id ="sub" type="submit">Send Message</button>
+    </form>
+  </section>
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 My E-Commerce Store. All rights reserved.</p>
+    <p>
+      <a href="https://facebook.com" target="_blank">Facebook</a> | 
+      <a href="https://twitter.com" target="_blank">Twitter</a> | 
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+  </p>
+  <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+<!-- Add this script at the end of the body -->
+<script>
+  // Smooth scrolling for navigation links
+  document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+
+  // "Add to Cart" button alert
+  document.querySelectorAll('.product button').forEach(button => {
+      button.addEventListener('click', () => {
+          alert("Product added to cart!");
+      });
+  });
+</script>
+
+</body>
+</html>
